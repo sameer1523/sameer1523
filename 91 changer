@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaming Club</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <h1>Gaming Club</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Games</a></li>
+        <li><a href="#">Join Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to Gaming Club!</h2>
+    <p>Your hub for exciting online games.</p>
+    <a href="#" class="cta-btn">Join Now</a>
+  </section>
+
+  <section class="games">
+    <h2>Featured Games</h2>
+    <div class="game-list">
+      <div class="game-item">
+        <img src="game1.jpg" alt="Game 1">
+        <p>Game 1</p>
+      </div>
+      <div class="game-item">
+        <img src="game2.jpg" alt="Game 2">
+        <p>Game 2</p>
+      </div>
+      <div class="game-item">
+        <img src="game3.jpg" alt="Game 3">
+        <p>Game 3</p>
+      </div>
+    </div>
+  </
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background: url('hero-image.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.cta-btn {
+  background-color: #ff5722;
+  padding: 15px 30px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.games {
+  padding: 30px;
+  text-align: center;
+}
+
+.game-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.game-item img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+// Placeholder for any future interactivity
+console.log('Gaming Club Website Loaded');
